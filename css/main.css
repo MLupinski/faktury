@@ -1,0 +1,402 @@
+body {
+  background-image: url('paper.png');
+}
+
+label {
+  font-weight: bold;
+  font-family: "Cambria", sans-serif;
+  display: block;
+  margin-top: 6px;
+  margin-left: 15px;
+}
+
+label2 {
+  font-weight: bold;
+  font-family: "Cambria", sans-serif;
+  margin-top: 6px;
+  margin-left: 37px;
+}
+
+label3 {
+  font-weight: bold;
+  font-family: "Cambria", sans-serif;
+  margin-top: 6px;
+  margin-left: 80px;
+}
+
+label4 {
+  font-weight: bold;
+  font-family: "Cambria", sans-serif;
+  margin-top: 6px;
+  margin-left: 118px;
+}
+
+label5 {
+  font-weight: bold;
+  font-family: "Cambria", sans-serif;
+  margin-top: 6px;
+  margin-left: 66px;
+}
+
+input[type="date"] {
+  width: 150px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  width: 90px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.intext
+{
+  width: 150px !important;
+  margin-left: 15px !important;
+  cursor: pointer !important;
+}
+
+.footButton
+{
+  position: absolute;
+  bottom: 15%;
+  left: 35%;
+  margin-bottom: 5%;
+}
+
+.footButton a
+{
+  transition: 1.2s;
+  background-color: red;
+  text-decoration: none;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 22px;
+  border-radius: 15px;
+  border: 2px solid darkred;
+  cursor: pointer;
+}
+
+.footButton a:hover, .footButton a:focus
+{
+  transition: 1.2s;
+  background-color: green;
+  border: 2px solid darkgreen;
+}
+
+select
+{
+  width: 150px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+h4
+{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h5
+{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+p
+{
+  font-size: 12px;
+  line-height: 5px;
+}
+
+.submitbutton
+{
+  color: black;
+  text-decoration: none;
+  background-color: #ffe0b2;
+  padding: 5px;
+  border: 2px solid #A62A2A;
+  border-radius: 15px;
+  text-align: center;
+  margin: 10px;
+}
+
+.submitbutton:hover, .submitbutton:focus {
+  background-color: #A62A2A;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.submitbutton2 {
+  background-color: #ffe0b2;
+  padding: 10px;
+  border: 2px solid #A62A2A;
+  border-radius: 15px;
+  text-align: center;
+  margin-left: 113px;
+  margin-top: 20%;
+}
+
+.submitbutton2:hover, .submitbutton2:focus {
+  background-color: #A62A2A;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.submitbutton3 {
+  background-color: #ffe0b2;
+  padding: 10px;
+  border: 2px solid #A62A2A;
+  border-radius: 15px;
+  text-align: center;
+  margin-left: 70px;
+  margin-top: 4%;
+}
+
+.submitbutton3:hover, .submitbutton3:focus {
+  background-color: #A62A2A;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.buttonadd {
+  background-color: #ffe0b2;
+  border: none;
+  background-image: url("buttonadd.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  text-align: center;
+  margin: 10px;
+  transition: 0.7s;
+  transform: rotate(-45deg);
+}
+
+.buttonadd:hover {
+  background-image: url("buttonadd2.png");
+  transition: 0.7s;
+  transform: rotate(0deg);
+}
+
+.buttondel {
+  background-color: #ffe0b2;
+  border: none;
+  background-image: url("buttondel.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  text-align: center;
+  margin: 10px;
+  transition: 0.7s;
+  transform: rotate(-90deg);
+}
+
+.buttondel:hover {
+  background-image: url("buttondel2.png");
+  transition: 0.7s;
+  transform: rotate(0deg);
+}
+
+.buttonaddw {
+  background-color: #fff;
+  border: none;
+  background-image: url("buttonadd.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  text-align: center;
+  margin: 10px;
+  transition: 0.7s;
+  transform: rotate(-45deg);
+}
+
+.buttonaddw:hover {
+  background-image: url("buttonadd2.png");
+  transition: 0.7s;
+  transform: rotate(0deg);
+}
+
+.buttondelw {
+  background-color: #fff;
+  border: none;
+  background-image: url("buttondel.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  text-align: center;
+  margin: 10px;
+  transition: 0.7s;
+  transform: rotate(-90deg);
+}
+
+.buttondelw:hover {
+  background-image: url("buttondel2.png");
+  transition: 0.7s;
+  transform: rotate(0deg);
+}
+
+.invoice {
+  background-color: #fff;
+  position: relative;
+  margin: 0 auto;
+  padding: 15px;
+  width: 210mm;
+  height: 297mm;
+}
+
+.fvheader {
+  margin: 0 auto;
+  width: auto;
+  height: 210px;
+  border-bottom: 1px solid black;
+}
+
+.fvbody {
+  margin: 0 auto;
+  margin-top: 10%;
+  width: auto;
+  height: auto;
+}
+
+footer {
+  height: auto;
+  width: auto;
+}
+
+.receivingPerson {
+  position: absolute;
+  bottom: 25%;
+  left: 3%;
+  float: left;
+  border-top: 2px solid black;
+}
+
+.displayPerson {
+  position: absolute;
+  bottom: 25%;
+  right: 3%;
+  float: right;
+  border-top: 2px solid black;
+}
+
+.fvtable {
+  background: #cde;
+  font-family: sans-serif;
+  font-size: 12px;
+  border: 1px solid #cde;
+  padding: 2px;
+  border-spacing: 0 1px;
+  text-align: left;
+}
+
+.fvInfo {
+  background-color: #ffe0b2;
+  margin: 0 auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 26vw;
+  height: auto;
+}
+
+.fvInfo2 {
+  background-color: #ffe0b2;
+  border: 2px solid #ffcc80;
+  margin: 0 auto;
+  margin-top: 25vh;
+  width: 26vw;
+  height: 250px;
+  -webkit-box-shadow: 4px 9px 16px -4px rgba(0,0,0,0.23);
+  -moz-box-shadow: 4px 9px 16px -4px rgba(0,0,0,0.23);
+  box-shadow: 4px 9px 16px -4px rgba(0,0,0,0.23);
+}
+
+tr:nth-child(odd) td {
+  background: #fff;
+}
+
+tr:nth-child(even) td {
+  background: #eee;
+}
+
+th {
+  background: #cde;
+  padding: 5px;
+}
+
+td {
+  padding: 5px;
+}
+
+td:nth-child(5) {
+  text-align: center;
+}
+
+a {
+  color: #47c;
+}
+
+.seller {
+  font-weight: bold;
+  margin-left: 1%;
+  margin-top: 3%;
+  float: left;
+}
+
+.buyer {
+  font-weight: bold;
+  margin-left: 10%;
+  margin-top: 3%;
+  float: left;
+}
+
+.fvdate {
+  font-weight: bold;
+  margin-top: 3%;
+  text-align: center;
+  float: right;
+}
+
+.button {
+  cursor: pointer;
+  color: white;
+  background-color: green;
+  border-radius: 15px;
+  border: 2px solid darkgreen;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.button:hover, .button:focus {
+  transition: 0.7s;
+  background-color: darkgreen;
+  color: white;
+  text-decoration: none;
+}
+
+.actionButton {
+  transition: 0.7s;
+  text-decoration: none;
+  color: red;
+}
+
+.actionButton:hover, .actionButton:focus {
+  color: green;
+  font-weight: bold;
+  transition: 0.7s;
+  text-decoration: none;
+}
